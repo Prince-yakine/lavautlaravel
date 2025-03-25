@@ -18,6 +18,8 @@
 </div>
 <!-- Page Header End -->
 
+<x-app.reservation.reservation />
+
 
 <!-- Contact Start -->
 <div class="container-xxl py-5">
