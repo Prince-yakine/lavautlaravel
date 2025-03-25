@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ReservationController;
+use App\Http\Controllers\ServiceController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -32,6 +34,15 @@ Route::get('/contact', function () {
     return view('app.contact');
 })->name('contact');
 
+Route::get('/message', function () {
+    return view('app.confirmation');
+})->name('message');
+
+Route::post('reservation', [ReservationController::class, 'store'])->name('reservation.store');
+
+Route::get('admin/service/create', [ServiceController::class,'create'])->name('services.create');
+Route::post('admin/service', [ServiceController::class,'store'])->name('services.store ');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
@@ -41,5 +52,10 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+// use App\Http\Controllers\ReservationController;
+
+// Route::get('/reservation', [ReservationController::class, 'create']);
+// Route::post('/reservation', [ReservationController::class, 'store'])->name('reservation.store');
+// Route::get('/reservation/confirmation', [ReservationController::class, 'confirmation'])->name('reservation.confirmation');
 
 require __DIR__.'/auth.php';
