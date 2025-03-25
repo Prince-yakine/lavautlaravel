@@ -23,6 +23,6 @@ class ServiceController extends Controller
 
         Service::create($validated);
 
-        return to_route('services.create',);
+        return to_route('services.create',)->with('success','Service creer avec succes');
     }
 }
