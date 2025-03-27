@@ -38,10 +38,20 @@ Route::get('/message', function () {
     return view('app.confirmation');
 })->name('message');
 
-Route::post('reservation', [ReservationController::class, 'store'])->name('reservation.store');
+// Route::post('reservation', [ReservationController::class, 'store'])->name('reservation.store');
 
-Route::get('admin/service/create', [ServiceController::class,'create'])->name('services.create');
+Route::prefix('admin')->group( function () {
+    Route::resource('service', ServiceController::class);
+    Route::resource('reservation', ReservationController::class);
+});
+
+// Route::get('admin/service/create', [ServiceController::class,'create'])->name('services.create');
 Route::post('admin/service', [ServiceController::class,'store'])->name('services.store ');
+
+Route::get('/admin', function () {
+    return view('dashboardapp');
+})->name('contact');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

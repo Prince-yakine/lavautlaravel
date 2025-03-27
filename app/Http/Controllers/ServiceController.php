@@ -8,6 +8,13 @@ use Illuminate\Http\Request;
 
 class ServiceController extends Controller
 {
+
+    public function index(){
+
+
+        $services = Service::all();
+        return view("app.service.index", compact("services"));
+    }
     public function create()
     {
 
@@ -23,6 +30,6 @@ class ServiceController extends Controller
 
         Service::create($validated);
 
-        return to_route('services.create',)->with('success','Service creer avec succes');
+        return to_route('service.index',)->with('success','Service creer avec succes');
     }
 }

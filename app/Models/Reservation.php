@@ -10,4 +10,8 @@ class Reservation extends Model
     use HasFactory;
 
     protected $fillable = ['name', 'phone', 'service_id', 'requete_special', 'reservation_date'];
+
+    public function service(){
+        return $this->belongsTo(Service::class);
+    }
 }
