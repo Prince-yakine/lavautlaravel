@@ -175,8 +175,8 @@
                             style="object-fit: cover;" alt="">
                         <div class="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5"
                             style="background: rgba(0, 0, 0, .08);">
-                            <h1 class="display-4 text-white mb-0">15 <span class="fs-4">ANS</span></h1>
-                            <h4 class="text-white">D'Experiences</h4>
+                            <h1 class="display-4 text-white mb-0"><span class="fs-4"></span></h1>
+                            <h4 class="text-white"></h4>
                         </div>
                     </div>
                 </div>
@@ -241,7 +241,7 @@
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
                     <i class="fa fa-check fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2" data-toggle="counter-up">1</h2>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">3</h2>
                     <p class="text-white mb-0">Années D'Experiences</p>
                 </div>
                 <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
@@ -251,12 +251,12 @@
                 </div>
                 <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
                     <i class="fa fa-users fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">10</h2>
                     <p class="text-white mb-0">Satisfaction Clients</p>
                 </div>
                 <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
                     <i class="fa fa-car fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2" data-toggle="counter-up">1234</h2>
+                    <h2 class="text-white mb-2" data-toggle="counter-up">15</h2>
                     <p class="text-white mb-0">Projets complets</p>
                 </div>
             </div>
@@ -332,7 +332,7 @@
                                         <div class="col-md-6" style="min-height: 300px;">
                                             <div class="position-relative h-100">
                                                 <img class="position-absolute img-fluid w-100 h-100"
-                                                    src="img/fdca72d5165ba813bebfe33efad1e57c.jpg" style="object-fit: cover;"
+                                                    src="img/exterieur.jpg" style="object-fit: cover;"
                                                     alt="">
                                             </div>
                                         </div>
@@ -394,7 +394,7 @@
                                         <div class="col-md-6" style="min-height: 500px;">
                                             <div class="position-relative h-100">
                                                 <img class="position-absolute img-fluid w-100 h-100"
-                                                    src="img/lavage-voiture-a-domicile-idf-768x512.jpg" style="object-fit: cover;"
+                                                    src="img/lavage-voiture-a-domicile-idf.jpg" style="object-fit: cover;"
                                                     alt="">
                                             </div>
                                         </div>
@@ -454,7 +454,7 @@
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/service-1.jpg"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/diagnostic.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
@@ -505,7 +505,7 @@
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 390px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/service-4.jpg"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/huile.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
@@ -539,22 +539,6 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/1713957083316.jpeg" alt="">
-                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
-                                <a class="btn btn-square mx-1" href="https://www.facebook.com/olivier.karka"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square mx-1" href="https://x.com/kara_olivier"><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/gnimdou-karka-34906126b/"><i class="fab fa-linkedin"></i></a>
-                           </div>
-                        </div>
-                        <div class="bg-light text-center p-4">
-                            <h5 class="fw-bold mb-0">Olivier KARKA</h5>
-                            <small>Responsable de la communication</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item">
-                        <div class="position-relative overflow-hidden">
                             <img class="img-fluid" src="img/WhatsApp Image 2024-09-17 à 13.45.46_37cfdb01.jpg" alt="">
                             <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
                                 <a class="btn btn-square mx-1" href="https://www.facebook.com/profile.php?id=100076656973503"><i class="fab fa-facebook-f"></i></a>
@@ -563,8 +547,25 @@
                             </div>
                         </div>
                         <div class="bg-light text-center p-4">
-                            <h5 class="fw-bold mb-0">Rauch YAKINE</h5>
-                            <small>Directeur Exécutif</small>
+                            <h5 class="fw-bold mb-0">Rauch Yakine TCHONTCHOKO</h5>
+                            <small>Directeur Executif</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="position-relative overflow-hidden">
+                            <img class="img-fluid" src="img/1713957083316.jpeg" alt="">
+                            <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
+                                <a class="btn btn-square mx-1" href="https://www.facebook.com/olivier.karka"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square mx-1" href="https://x.com/kara_olivier"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square mx-1" href="https://www.linkedin.com/in/gnimdou-karka-34906126b/"><i class="fab fa-linkedin"></i></a>
+                           </div>
+                           
+                        </div>
+                        <div class="bg-light text-center p-4">
+                            <h5 class="fw-bold mb-0">Olivier KARKA</h5>
+                            <small>Responsable de la communication</small>
                         </div>
                     </div>
                 </div>
@@ -615,7 +616,7 @@
             </div>
             <div class="owl-carousel testimonial-carousel position-relative">
                 <div class="testimonial-item text-center">
-                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg"
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/femme.jpg"
                         style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Armelle</h5>
                     <p>Commerçante</p>
@@ -625,7 +626,7 @@
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
-                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg"
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/eiseignant.jpg"
                         style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Albert</h5>
                     <p>Enseignant</p>
@@ -637,7 +638,7 @@
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
-                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg"
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/homme.jpg"
                         style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Claude</h5>
                     <p>Directeur des études</p>
